@@ -1,0 +1,66 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-brand-navy pt-24 pb-12 border-t border-brand-navy-dark">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+      
+      <!-- Marca y Descripción -->
+      <div class="lg:col-span-1">
+        <a href="/" class="text-2xl font-serif font-bold text-white tracking-wide mb-6 inline-block">
+          Martínez <span class="text-brand-gold italic font-normal">&</span> Asociados
+        </a>
+        <p class="text-sm leading-relaxed mb-8 text-gray-400 font-light">
+          Despacho jurídico de primer nivel. Ejercemos con profunda vocación, ética inquebrantable y un alto rigor técnico para asegurar la protección de sus intereses.
+        </p>
+      </div>
+      
+      <!-- Enlaces Rápidos -->
+      <div>
+        <h4 class="text-brand-gold text-xs font-bold tracking-widest mb-6 uppercase">La Firma</h4>
+        <ul class="space-y-4 text-sm font-light">
+          <li><a href="#inicio" class="text-gray-400 hover:text-white transition-colors">Inicio</a></li>
+          <li><a href="#experiencia" class="text-gray-400 hover:text-white transition-colors">Nuestra Experiencia</a></li>
+          <li><a href="#servicios" class="text-gray-400 hover:text-white transition-colors">Áreas de Práctica</a></li>
+          <li><a href="#contacto" class="text-gray-400 hover:text-white transition-colors">Contacto</a></li>
+        </ul>
+      </div>
+      
+      <!-- Especialidades -->
+      <div>
+        <h4 class="text-brand-gold text-xs font-bold tracking-widest mb-6 uppercase">Especialidades</h4>
+        <ul class="space-y-4 text-sm font-light">
+          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Derecho Familiar</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Derecho Civil</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Defensa Penal</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Asesoría Corporativa</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contacto Directo -->
+      <div>
+        <h4 class="text-brand-gold text-xs font-bold tracking-widest mb-6 uppercase">Contacto</h4>
+        <ul class="space-y-5 text-sm font-light">
+          <li class="flex items-start">
+            <span class="text-gray-400">Edificio Corporativo Demo, Piso 0<br/>Av. Principal 0000<br/>Ciudad de Demostración, 00000</span>
+          </li>
+          <li>
+            <a href="tel:+00000000000" class="text-white hover:text-brand-gold transition-colors font-serif italic text-xl tracking-wider">+00 (000) 000 0000</a>
+          </li>
+          <li>
+            <a href="mailto:contacto@martinez-asociados.com" class="text-gray-400 hover:text-white transition-colors">contacto@martinez-asociados.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="pt-10 border-t border-brand-navy-dark flex flex-col md:flex-row justify-between items-center text-xs tracking-widest text-gray-500 font-semibold uppercase">
+      <p>&copy; {currentYear} Martínez & Asociados. Todos los derechos reservados.</p>
+      <div class="mt-4 md:mt-0 space-x-6">
+        <a href="#" class="hover:text-brand-gold transition-colors">Aviso de Privacidad</a>
+        <a href="#" class="hover:text-brand-gold transition-colors">Políticas</a>
+      </div>
+    </div>
+  </div>
+</footer>
